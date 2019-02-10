@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="">
+        <h1>Register</h1>
+        <label for="fName">First Name</label>
+        <input type="text" name="FirstName" id="fName" placeholder="Aganya" required >
+        <label for="lName">Last Name</label>
+        <input type="text" name="LastName" id="lName" placeholder="Dejen" required>
+        
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" id="female" value="female">
+            <label for="other">Other</label>
+            <input type="radio" name="Gender" id="other" value="other" >
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="emale" id="email" placeholder="E-mail" required>  
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" minlength="5" required>
+
+        </div>
+
+        <div>
+            <label for="">date</label>
+            
+            <select name="day" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="month" id="">
+                    <option value="1">january</option>
+                    <option value="2">feb</option>
+                    <option value="3">mar</option>
+            </select>
+            <select name="year" id="">
+                    <option value="1990">1990</option>
+                    <option value="1989">1989</option>
+                    <option value="1988">1988</option>
+                </select>
+        </div>
+
+        <div>
+            <label for="">
+                I agry to the turms
+                <input type="checkbox" name="aggry" id=""  required> 
+            </label>
+        </div>
+        
+        <p>
+            <button>Submit</button>
+        </p>
+        
+    </form>
+</body>
+</html>
